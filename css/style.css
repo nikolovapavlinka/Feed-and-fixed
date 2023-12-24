@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:wght@300;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fixed_section {
+    width: 40%;
+    background: #bebbbb;
+    position: fixed;
+    height: 100vh;
+
+    
+}
+
+.fixed_content {
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+.welcome_header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.welcome_desc {
+    font-size: 18px;
+}
+
+.signup_widget {
+    width: 300px;
+}
+
+.signup_header {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+    width: fit-content;
+    color: #f3eaea;
+    font-weight: 600;
+    border-color: #f3eaea;
+    font-size: 19px;
+
+}
+
+.signup_price {
+    font-size: 19px;
+    font-weight: 500;
+    background: #f3eaea;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 50px;
+}
+
+.form_input {
+    width: -webkit-fill-available;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    font-size: 15px;
+}
+
+.signup_btn {
+    width: -webkit-fill-available;
+    padding: 18px;
+    font-size: 20px;
+    appearance: none;
+    border: 1px solid #959595;
+    background: #959595;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0px 3px 2px #4d4d50;
+    cursor: pointer;
+}
+
+.feed_section {
+    width: 60%;
+    margin-left: 40%;
+    background: #f3eaea;;
+}
+
+.post {
+    margin-top: 100px;
+    margin-left: 255px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.post_image {
+    padding-bottom: 11px;
+}
+
+.post_image img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 65px;
+    border: 5px solid #f3eaea;
+    box-shadow: 0px 3px 1px 0px #a5a5a5;
+}
+
+.post_title {
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.post_date {
+    font-size: 15px;
+    color: #717fa7;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.post_author {
+    font-size: 21px;
+}
+
+.post_preview_text {
+    font-size: 17px;
+    padding-bottom: 11px;
+}
+
+.read_more {
+    font-weight: 500;
+    color:#0a59ec;
+    border-bottom: 1px solid #0a59ec;
+    width: fit-content;
+    text-align: center;
+    margin:auto;
+    cursor: pointer;
+}
+
+.marker {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #f5f4f4;
+    z-index: 1;
+    left: 675px;
+    top: 30px;
+    box-shadow: 0px 3px 1px 2px #a18888;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 41px;
+    margin-top: auto;
+}
